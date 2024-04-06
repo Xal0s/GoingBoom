@@ -1,0 +1,16 @@
+Sprites de l'explosion
+"""Sprites pour l'affichage d'une explosion :
+explos_images = [pygame.image.load(f"explos_{i}.png").convert_alpha() for i in range(1, 10)]
+reduced_explos_images = [pygame.transform.scale(image, (image.get_width() * 1.5, image.get_height() * 1.5)) for image in [explos_images]"""
+
+
+Cas où il y aurait des fonctions pour l'affichage de ces modes :
+    elif etat_jeu == "en_cours_easy" :
+        # Affichage joueur de la partie
+        pass
+    elif etat_jeu == "en_cours_medium" :
+        # Affichage joueur de la partie
+        pass
+    elif etat_jeu == "en_cours_hard" :
+        # Affichage joueur de la partie
+        pass
